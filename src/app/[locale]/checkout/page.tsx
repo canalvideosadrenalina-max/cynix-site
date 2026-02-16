@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
-import { RequireAuth } from "../components/RequireAuth";
+import { RequireAuth } from "../../components/RequireAuth";
+import { Link } from "../../../i18n/navigation";
 
 export default function CheckoutPage() {
   return (

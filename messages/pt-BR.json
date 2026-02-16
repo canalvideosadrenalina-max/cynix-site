@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "solutions": "Soluções",
+    "differentiators": "Diferenciais",
+    "howWeWork": "Como trabalhamos",
+    "contact": "Contato",
+    "requestQuote": "Solicitar orçamento",
+    "login": "Entrar",
+    "register": "Cadastrar",
+    "myArea": "Minha área",
+    "logout": "Sair"
+  },
+  "home": {
+    "hero": {
+      "title": "Seu negócio cresce quando sua presença digital é profissional",
+      "subtitle": "Desenvolvemos sites de alto impacto e aplicativos sob medida para pequenas e médias empresas. Tecnologia que vende mais e opera melhor.",
+      "viewSolutions": "Ver soluções",
+      "talkToConsultant": "Falar com consultor"
+    },
+    "solutions": {
+      "title": "Nossas soluções",
+      "subtitle": "Do site que converte visitantes em clientes ao sistema que organiza sua operação.",
+      "sites": {
+        "title": "Desenvolvimento de sites profissionais",
+        "subtitle": "Presença digital que gera autoridade e vendas",
+        "description": "Sites institucionais e de conversão: design moderno, responsivo e otimizado para buscar e para o usuário. Sua marca com credibilidade e clareza para o cliente decidir por você.",
+        "item1": "Sites institucionais e landing pages",
+        "item2": "Design responsivo e profissional",
+        "item3": "Foco em conversão e resultados",
+        "item4": "Manutenção e suporte",
+        "cta": "Pedir orçamento de site"
+      },
+      "apps": {
+        "title": "Aplicativos e sistemas sob medida",
+        "subtitle": "Soluções que automatizam e escalam seu negócio",
+        "description": "Desenvolvemos sistemas e aplicativos exclusivos para o seu segmento: PDV, gestão, controle financeiro e operação. Tecnologia alinhada à sua realidade para você vender mais e gastar menos tempo com planilhas e trabalho manual.",
+        "segmentLabel": "Atendemos segmentos como:",
+        "cta": "Pedir orçamento de sistema ou app"
+      }
+    },
+    "segmentos": {
+      "miniMercados": "Mini mercados",
+      "miniMercadosDesc": "PDV, controle de estoque e vendas integrado.",
+      "restaurantes": "Restaurantes",
+      "restaurantesDesc": "Cardápio digital, pedidos e gestão de mesa.",
+      "padarias": "Padarias",
+      "padariasDesc": "Ponto de venda e controle de produção.",
+      "postos": "Postos de gasolina",
+      "postosDesc": "Gestão de bombas, frentes e conveniência.",
+      "financeiro": "Controle financeiro empresarial",
+      "financeiroDesc": "Fluxo de caixa, relatórios e dashboards."
+    },
+    "diferenciais": {
+      "title": "Por que a Cynix",
+      "subtitle": "Posicionamos sua empresa com tecnologia estratégica e suporte contínuo.",
+      "tech": "Tecnologia sob medida",
+      "techDesc": "Soluções desenhadas para o seu negócio, não pacotes genéricos. Cada projeto é único.",
+      "profit": "Foco em lucro",
+      "profitDesc": "Tudo que desenvolvemos tem um objetivo: aumentar vendas, reduzir custos ou ganhar tempo.",
+      "automation": "Automação",
+      "automationDesc": "Menos trabalho manual e menos erro. Processos que rodam sozinhos e escalam com você.",
+      "scale": "Escalabilidade",
+      "scaleDesc": "Sistemas e sites preparados para crescer com sua empresa, sem precisar refazer do zero."
+    },
+    "metodologia": {
+      "title": "Como trabalhamos",
+      "subtitle": "Processo claro, do primeiro contato à entrega e suporte.",
+      "step1": "Diagnóstico",
+      "step1Desc": "Entendemos seu negócio, objetivos e dores para propor a solução certa.",
+      "step2": "Proposta",
+      "step2Desc": "Escopo, cronograma e investimento transparentes. Início após sua aprovação.",
+      "step3": "Desenvolvimento",
+      "step3Desc": "Desenvolvemos com acompanhamento próximo e comunicação constante.",
+      "step4": "Entrega e suporte",
+      "step4Desc": "Colocamos no ar e oferecemos suporte pós-entrega conforme combinado."
+    },
+    "cta": {
+      "title": "Pronto para levar seu negócio ao próximo nível?",
+      "subtitle": "Fale com nossa equipe pelo WhatsApp ou use o chat. Resposta rápida e orçamento sem compromisso.",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "footer": {
+    "tagline": "Sites profissionais e aplicativos sob medida para pequenas e médias empresas.",
+    "navTitle": "Navegação",
+    "solutions": "Soluções",
+    "differentiators": "Diferenciais",
+    "howWeWork": "Como trabalhamos",
+    "contact": "Contato",
+    "contactTitle": "Contato",
+    "requestQuote": "Solicitar orçamento (WhatsApp)",
+    "solutionsTitle": "Soluções",
+    "sites": "Sites profissionais",
+    "apps": "Aplicativos e sistemas",
+    "rights": "Todos os direitos reservados."
+  }
+}

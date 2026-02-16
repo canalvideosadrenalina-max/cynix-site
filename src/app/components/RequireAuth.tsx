@@ -3,17 +3,20 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/lib/supabase/auth";
+import { useLocale } from "next-intl";
 
 export function RequireAuth({ children }: { children: React.ReactNode }) {
   const { user, loading } = useAuth();
   const router = useRouter();
+  const locale = useLocale();
 
   useEffect(() => {
     if (loading) return;
     if (!user) {
-      router.replace("/login?redirect=" + encodeURIComponent(typeof window !== "undefined" ? window.location.pathname : "/minha-area"));
+      const path = typeof window !== "undefined" ? window.location.pathname : `/${locale}/minha-area`;
+      router.replace(`/${locale}/login?redirect=${encodeURIComponent(path)}`);
     }
-  }, [user, loading, router]);
+  }, [user, loading, router, locale]);
 
   if (loading) {
     return (

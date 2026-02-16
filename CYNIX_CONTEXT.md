@@ -64,3 +64,4 @@ Use este contexto em textos do site, redes sociais, propostas e documentação p
 ## Infraestrutura / Contas
 
 - **Vercel:** conta **Pro (Plus)** — deploy do site Cynix, Observability, AI Gateway e recursos do plano pago disponíveis.
+- **Domínio do site:** **cynix.com.br** (configurar em Vercel → Project → Settings → Domains e no painel DNS do registrador).

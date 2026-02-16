@@ -13,7 +13,10 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(baseUrl),
   title: "Cynix - Sites profissionais e aplicativos sob medida para seu negócio",
   description: "Desenvolvimento de sites de alto impacto e sistemas sob medida para pequenas e médias empresas: mini mercados, restaurantes, padarias, postos e controle financeiro. Tecnologia que vende mais.",
 };

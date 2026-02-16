@@ -80,7 +80,33 @@ Depois disso, o código estará no GitHub.
    Marque **Production**, **Preview** e **Development** se quiser que valha para todos os ambientes.
 
 6. Clique em **Deploy**. A Vercel vai fazer o build e publicar.
-7. Quando terminar, você recebe uma URL tipo `cynix-site-xxx.vercel.app`. Pode configurar um domínio próprio depois em **Project → Settings → Domains**.
+7. Quando terminar, você recebe uma URL tipo `cynix-site-xxx.vercel.app`. Configure o domínio **cynix.com.br** (ver seção abaixo).
+
+---
+
+## 2.1 Domínio próprio: cynix.com.br
+
+**Domínio do site Cynix:** **cynix.com.br**
+
+### Na Vercel
+
+1. Abra o projeto do site na Vercel.
+2. Vá em **Settings** → **Domains**.
+3. Clique em **Add** e adicione:
+   - **cynix.com.br** (raiz)
+   - **www.cynix.com.br** (com www)
+4. A Vercel mostra quais registros DNS criar (geralmente um **A** ou **CNAME**). Anote o valor que ela indicar (ex.: `cname.vercel-dns.com` ou um endereço IP).
+
+### No painel do domínio (registrador)
+
+No lugar onde você gerencia o **cynix.com.br** (Registro.br, GoDaddy, Cloudflare, etc.):
+
+- Para **cynix.com.br** (raiz): crie um registro **A** apontando para o IP que a Vercel mostrar, **ou** use os **nameservers da Vercel** se ela oferecer (Domain → Use Vercel DNS).
+- Para **www.cynix.com.br**: crie um **CNAME** com valor `cname.vercel-dns.com` (ou o que a Vercel indicar na tela de Domains).
+
+Salve as alterações; a propagação pode levar até algumas horas. Quando estiver ok, a Vercel marca o domínio como "Valid Configuration" e o site passa a abrir em **https://cynix.com.br**.
+
+**Opcional:** nas **Environment Variables** do projeto na Vercel, adicione `NEXT_PUBLIC_BASE_URL` = `https://cynix.com.br` para Production, se o site usar essa variável em links absolutos.
 
 ---
 
@@ -106,5 +132,6 @@ A Vercel detecta o push no branch conectado (geralmente `main`) e faz um novo de
 | **Vercel** | Build, hospedagem e URL pública |
 | **Supabase** | Login/cadastro e banco (variáveis no .env e na Vercel) |
 | **.env.local** | Só no seu PC; nunca commitar. Na Vercel use Environment Variables |
+| **cynix.com.br** | Domínio do site; configurar em Vercel → Settings → Domains e no DNS do registrador |
 
 Se algo falhar no deploy, confira o **Build Logs** no painel da Vercel (aba do deploy) e as variáveis de ambiente.

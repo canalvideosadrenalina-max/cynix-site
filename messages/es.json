@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "solutions": "Soluciones",
+    "differentiators": "Por qué nosotros",
+    "howWeWork": "Cómo trabajamos",
+    "contact": "Contacto",
+    "requestQuote": "Solicitar presupuesto",
+    "login": "Entrar",
+    "register": "Registrarse",
+    "myArea": "Mi área",
+    "logout": "Salir"
+  },
+  "home": {
+    "hero": {
+      "title": "Tu negocio crece cuando tu presencia digital es profesional",
+      "subtitle": "Desarrollamos sitios de alto impacto y aplicaciones a medida para pequeñas y medianas empresas. Tecnología que vende más y opera mejor.",
+      "viewSolutions": "Ver soluciones",
+      "talkToConsultant": "Hablar con un consultor"
+    },
+    "solutions": {
+      "title": "Nuestras soluciones",
+      "subtitle": "Desde el sitio que convierte visitantes en clientes hasta el sistema que organiza tu operación.",
+      "sites": {
+        "title": "Desarrollo de sitios profesionales",
+        "subtitle": "Presencia digital que genera autoridad y ventas",
+        "description": "Sitios institucionales y de conversión: diseño moderno, responsive y optimizado para búsqueda y usuario. Tu marca con credibilidad y claridad para que el cliente elija por ti.",
+        "item1": "Sitios institucionales y landing pages",
+        "item2": "Diseño responsive y profesional",
+        "item3": "Enfoque en conversión y resultados",
+        "item4": "Mantenimiento y soporte",
+        "cta": "Pedir presupuesto de sitio"
+      },
+      "apps": {
+        "title": "Aplicaciones y sistemas a medida",
+        "subtitle": "Soluciones que automatizan y escalan tu negocio",
+        "description": "Desarrollamos sistemas y aplicaciones exclusivos para tu segmento: PDV, gestión, control financiero y operación. Tecnología alineada a tu realidad para vender más y gastar menos tiempo en planillas y trabajo manual.",
+        "segmentLabel": "Atendemos segmentos como:",
+        "cta": "Pedir presupuesto de sistema o app"
+      }
+    },
+    "segmentos": {
+      "miniMercados": "Minimercados",
+      "miniMercadosDesc": "PDV, control de stock y ventas integradas.",
+      "restaurantes": "Restaurantes",
+      "restaurantesDesc": "Carta digital, pedidos y gestión de mesas.",
+      "padarias": "Panaderías",
+      "padariasDesc": "Punto de venta y control de producción.",
+      "postos": "Estaciones de servicio",
+      "postosDesc": "Gestión de bombas, frentes y tienda.",
+      "financeiro": "Control financiero empresarial",
+      "financeiroDesc": "Flujo de caja, informes y dashboards."
+    },
+    "diferenciais": {
+      "title": "Por qué Cynix",
+      "subtitle": "Posicionamos tu empresa con tecnología estratégica y soporte continuo.",
+      "tech": "Tecnología a medida",
+      "techDesc": "Soluciones diseñadas para tu negocio, no paquetes genéricos. Cada proyecto es único.",
+      "profit": "Enfoque en ganancias",
+      "profitDesc": "Todo lo que desarrollamos tiene un objetivo: aumentar ventas, reducir costos o ganar tiempo.",
+      "automation": "Automatización",
+      "automationDesc": "Menos trabajo manual y menos errores. Procesos que funcionan solos y escalan contigo.",
+      "scale": "Escalabilidad",
+      "scaleDesc": "Sistemas y sitios preparados para crecer con tu empresa, sin tener que rehacer desde cero."
+    },
+    "metodologia": {
+      "title": "Cómo trabajamos",
+      "subtitle": "Proceso claro, desde el primer contacto hasta la entrega y soporte.",
+      "step1": "Diagnóstico",
+      "step1Desc": "Entendemos tu negocio, objetivos y dolores para proponer la solución correcta.",
+      "step2": "Propuesta",
+      "step2Desc": "Alcance, cronograma e inversión transparentes. Inicio tras tu aprobación.",
+      "step3": "Desarrollo",
+      "step3Desc": "Desarrollamos con acompañamiento cercano y comunicación constante.",
+      "step4": "Entrega y soporte",
+      "step4Desc": "Ponemos en marcha y ofrecemos soporte post-entrega según lo acordado."
+    },
+    "cta": {
+      "title": "¿Listo para llevar tu negocio al siguiente nivel?",
+      "subtitle": "Habla con nuestro equipo por WhatsApp o usa el chat. Respuesta rápida y presupuesto sin compromiso.",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "footer": {
+    "tagline": "Sitios profesionales y aplicaciones a medida para pequeñas y medianas empresas.",
+    "navTitle": "Navegación",
+    "solutions": "Soluciones",
+    "differentiators": "Por qué nosotros",
+    "howWeWork": "Cómo trabajamos",
+    "contact": "Contacto",
+    "contactTitle": "Contacto",
+    "requestQuote": "Solicitar presupuesto (WhatsApp)",
+    "solutionsTitle": "Soluciones",
+    "sites": "Sitios profesionales",
+    "apps": "Aplicaciones y sistemas",
+    "rights": "Todos los derechos reservados."
+  }
+}

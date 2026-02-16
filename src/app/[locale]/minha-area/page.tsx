@@ -1,9 +1,10 @@
 "use client";
 
-import Link from "next/link";
 import { useAuth } from "@/lib/supabase/auth";
-import { RequireAuth } from "../components/RequireAuth";
+import { RequireAuth } from "../../components/RequireAuth";
 import { signOut } from "@/lib/supabase/auth";
+import { useLocale } from "next-intl";
+import { Link } from "../../../i18n/navigation";
 
 const STATUS_LABELS: Record<string, string> = {
   briefing: "Em briefing",
@@ -22,6 +23,7 @@ export default function MinhaAreaPage() {
 
 function MinhaAreaContent() {
   const { user } = useAuth();
+  const locale = useLocale();
   const projects: { id: string; name: string; status: string }[] = [];
 
   return (
@@ -35,7 +37,7 @@ function MinhaAreaContent() {
           <div className="flex items-center gap-4">
             <span className="text-sm text-zinc-400">{user?.email}</span>
             <button
-              onClick={() => signOut().then(() => window.location.href = "/")}
+              onClick={() => signOut().then(() => (window.location.href = `/${locale}`))}
               className="rounded-lg border border-zinc-600 px-3 py-1.5 text-sm text-zinc-300 hover:bg-zinc-800"
             >
               Sair

@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "solutions": "Solutions",
+    "differentiators": "Why us",
+    "howWeWork": "How we work",
+    "contact": "Contact",
+    "requestQuote": "Request quote",
+    "login": "Log in",
+    "register": "Sign up",
+    "myArea": "My area",
+    "logout": "Log out"
+  },
+  "home": {
+    "hero": {
+      "title": "Your business grows when your digital presence is professional",
+      "subtitle": "We develop high-impact websites and custom applications for small and medium businesses. Technology that sells more and runs better.",
+      "viewSolutions": "View solutions",
+      "talkToConsultant": "Talk to a consultant"
+    },
+    "solutions": {
+      "title": "Our solutions",
+      "subtitle": "From the website that turns visitors into customers to the system that organizes your operation.",
+      "sites": {
+        "title": "Professional website development",
+        "subtitle": "Digital presence that builds authority and sales",
+        "description": "Institutional and conversion sites: modern, responsive design optimized for search and users. Your brand with credibility and clarity so customers choose you.",
+        "item1": "Institutional sites and landing pages",
+        "item2": "Responsive, professional design",
+        "item3": "Focus on conversion and results",
+        "item4": "Maintenance and support",
+        "cta": "Request website quote"
+      },
+      "apps": {
+        "title": "Custom apps and systems",
+        "subtitle": "Solutions that automate and scale your business",
+        "description": "We develop exclusive systems and applications for your segment: POS, management, financial control and operations. Technology aligned with your reality so you sell more and spend less time on spreadsheets and manual work.",
+        "segmentLabel": "We serve segments such as:",
+        "cta": "Request system or app quote"
+      }
+    },
+    "segmentos": {
+      "miniMercados": "Mini markets",
+      "miniMercadosDesc": "POS, inventory control and integrated sales.",
+      "restaurantes": "Restaurants",
+      "restaurantesDesc": "Digital menu, orders and table management.",
+      "padarias": "Bakeries",
+      "padariasDesc": "Point of sale and production control.",
+      "postos": "Gas stations",
+      "postosDesc": "Pump, forecourt and convenience management.",
+      "financeiro": "Business financial control",
+      "financeiroDesc": "Cash flow, reports and dashboards."
+    },
+    "diferenciais": {
+      "title": "Why Cynix",
+      "subtitle": "We position your company with strategic technology and ongoing support.",
+      "tech": "Custom technology",
+      "techDesc": "Solutions designed for your business, not generic packages. Every project is unique.",
+      "profit": "Focus on profit",
+      "profitDesc": "Everything we build has one goal: increase sales, reduce costs or save time.",
+      "automation": "Automation",
+      "automationDesc": "Less manual work and fewer errors. Processes that run on their own and scale with you.",
+      "scale": "Scalability",
+      "scaleDesc": "Systems and sites ready to grow with your company, without starting from scratch."
+    },
+    "metodologia": {
+      "title": "How we work",
+      "subtitle": "Clear process, from first contact to delivery and support.",
+      "step1": "Diagnosis",
+      "step1Desc": "We understand your business, goals and pain points to propose the right solution.",
+      "step2": "Proposal",
+      "step2Desc": "Transparent scope, timeline and investment. We start after your approval.",
+      "step3": "Development",
+      "step3Desc": "We develop with close follow-up and constant communication.",
+      "step4": "Delivery and support",
+      "step4Desc": "We go live and provide post-delivery support as agreed."
+    },
+    "cta": {
+      "title": "Ready to take your business to the next level?",
+      "subtitle": "Contact our team via WhatsApp or use the chat. Quick response and no-obligation quote.",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "footer": {
+    "tagline": "Professional websites and custom applications for small and medium businesses.",
+    "navTitle": "Navigation",
+    "solutions": "Solutions",
+    "differentiators": "Why us",
+    "howWeWork": "How we work",
+    "contact": "Contact",
+    "contactTitle": "Contact",
+    "requestQuote": "Request quote (WhatsApp)",
+    "solutionsTitle": "Solutions",
+    "sites": "Professional websites",
+    "apps": "Apps and systems",
+    "rights": "All rights reserved."
+  }
+}

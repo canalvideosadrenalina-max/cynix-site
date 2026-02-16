@@ -26,12 +26,18 @@
 
 ---
 
+## i18n (PT-BR, EN, ES)
+
+- **Idiomas:** português (padrão), inglês e espanhol. O cliente escolhe pela **bandeira** no header (🇧🇷 PT, 🇺🇸 EN, 🇪🇸 ES).
+- **URLs:** `/pt-BR`, `/en`, `/es` (e todas as rotas com prefixo: `/en/login`, `/es/minha-area`, etc.). Acesso a `/` redireciona para `/pt-BR`.
+- **Arquivos:** `messages/pt-BR.json`, `messages/en.json`, `messages/es.json`; `src/i18n/routing.ts`, `request.ts`, `navigation.ts`; `src/middleware.ts`; páginas em `src/app/[locale]/`.
+
 ## Próximos passos (quando quiser)
 
 - Menu mobile (hamburger) no header.
 - Supabase: tabelas `projects` e `previews`, RLS; popular `/minha-area` com dados reais.
 - Checkout: integração de pagamento e resumo do pedido.
 - Itens do documento internacional: Open Graph, sitemap, otimizar imagem de fundo, política de privacidade.
-- .env.example e deploy (ex.: Vercel).
+- Traduzir textos de login/cadastro/minha-area/checkout (por enquanto em PT-BR).
 
 *Atualize este arquivo quando mudar algo importante ou quando parar em outro ponto.*

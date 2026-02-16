@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { useParams } from "next/navigation";
-import { RequireAuth } from "../../../components/RequireAuth";
+import { RequireAuth } from "../../../../components/RequireAuth";
+import { Link } from "../../../../../i18n/navigation";
 
 const STATUS_STEPS = [
   { id: "briefing", label: "Em briefing" },
