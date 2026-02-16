@@ -14,6 +14,7 @@
 - **Proteção de rotas:** componente `RequireAuth` usado em `/minha-area`, `/minha-area/projeto/[id]` e `/checkout`.
 - **Documento:** `docs/SUGESTOES_NIVEL_INTERNACIONAL.md` com sugestões de performance, SEO, confiança, UX, acessibilidade, Supabase e prioridades.
 - Git e atalhos: **CYNIX - Iniciar Projeto**, **CYNIX - Checkpoint**, **FINALIZAR_CYNIX.bat**.
+- **Conta Vercel:** Pro (Plus) — deploy e Observability disponíveis.
 
 ---
 

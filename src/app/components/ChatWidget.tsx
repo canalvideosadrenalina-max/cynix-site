@@ -179,16 +179,19 @@ export function ChatWidget() {
         <div className="fixed bottom-24 right-6 z-40 flex w-full max-w-md flex-col overflow-hidden rounded-xl border border-zinc-800 bg-[#09090b] shadow-xl">
           <div className="border-b border-zinc-800 bg-zinc-900/80 px-4 py-3">
             <h3 className="text-sm font-semibold text-white">Atendimento Cynix</h3>
-            <p className="text-xs text-zinc-400">Uma pergunta por vez. No final enviamos um orçamento.</p>
+            <p className="text-xs text-zinc-400">Olá! Estamos aqui para ajudar. Conte o que você precisa que a gente te guia.</p>
           </div>
 
           <div className="flex max-h-[60vh] min-h-[280px] flex-1 flex-col">
             <div className="flex-1 space-y-4 overflow-y-auto p-4">
               {messages.length === 0 && (
-                <div className="space-y-3">
-                  <p className="text-center text-sm text-zinc-400">
-                    O que você precisa?
-                  </p>
+                <div className="space-y-4">
+                  <div className="flex justify-start">
+                    <div className="max-w-[85%] rounded-lg bg-zinc-800 px-3 py-2 text-sm text-zinc-100">
+                      Olá! Tudo bem? Sou o assistente da Cynix e fico feliz em ajudar. O que você precisa hoje?
+                    </div>
+                  </div>
+                  <p className="text-center text-sm text-zinc-500">Escolha uma opção ou digite sua mensagem:</p>
                   <div className="flex flex-wrap justify-center gap-2">
                     <button
                       type="button"

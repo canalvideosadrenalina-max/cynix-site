@@ -4,6 +4,16 @@ Siga estes passos para publicar o site na internet.
 
 ---
 
+## Checklist rápido (para funcionar na web)
+
+1. **GitHub:** enviar o código (push) com a conta **canalvideosadrenalina-max**. Remote já está: `https://github.com/canalvideosadrenalina-max/cynix-site.git`
+2. **Vercel:** Add New → Project → importar `cynix-site` → adicionar **Environment Variables** (ver tabela abaixo) → Deploy.
+3. **Supabase:** ter projeto criado e variáveis no `.env.local` (e nas variáveis da Vercel) para login/cadastro funcionarem.
+
+Sem as variáveis de ambiente na Vercel, o site sobe mas o chat e o login não funcionam direito.
+
+---
+
 ## 1. GitHub (ou outro Git)
 
 ### Se ainda não tem um repositório no GitHub

@@ -58,3 +58,9 @@ A Cynix se posiciona como **empresa de tecnologia remote-first focada em ajudar 
 - **Sob medida**: sites, sistemas e apps desenhados para o contexto real do cliente, não soluções genéricas.
 
 Use este contexto em textos do site, redes sociais, propostas e documentação para manter mensagem e posicionamento consistentes.
+
+---
+
+## Infraestrutura / Contas
+
+- **Vercel:** conta **Pro (Plus)** — deploy do site Cynix, Observability, AI Gateway e recursos do plano pago disponíveis.

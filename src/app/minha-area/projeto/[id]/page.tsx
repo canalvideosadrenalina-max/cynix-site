@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { RequireAuth } from "@/app/components/RequireAuth";
+import { RequireAuth } from "../../../components/RequireAuth";
 
 const STATUS_STEPS = [
   { id: "briefing", label: "Em briefing" },
