@@ -104,7 +104,7 @@ Organizado por prioridade e impacto.
 
 ## ESTADO OFICIAL DO PROJETO
 
-- **Data:** 16 de fevereiro de 2026  
+- **Data:** 16 de fevereiro de 2026 (atualizado)  
 - **Status do servidor:** Build OK. Desenvolvimento em `npm run dev` (porta 3000). Produção: `npm run build` e `npm start`.  
 - **O que já está pronto:**  
   - Landing reestruturada (Sites profissionais + Aplicativos e sistemas sob medida; segmentos: mini mercados, restaurantes, padarias, postos, controle financeiro; diferenciais: tecnologia sob medida, foco em lucro, automação, escalabilidade).  
